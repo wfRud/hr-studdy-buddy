@@ -21,6 +21,11 @@ export const users = [
   {
     name: 'Stanisław Sojka',
     attendance: '59%',
-    average: 2.0,
+    average: 4.3,
+  },
+  {
+    name: 'Mirosław Serel',
+    attendance: '100%',
+    average: 5.0,
   },
 ];
