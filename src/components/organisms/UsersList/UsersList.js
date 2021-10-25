@@ -1,15 +1,18 @@
-import { users } from 'data/users';
+import { StyledList } from './UsersList.styles';
+import { Title } from 'components/atoms/Title/Title';
 import UsersListItem from 'components/molecules/UsersListItem/UsersListItem';
-import { Wrapper, StyledList } from './UsersList.styles';
 
-const UsersList = () => (
-  <Wrapper>
-    <StyledList>
-      {users.map((userData, i) => (
-        <UsersListItem index={i} userData={userData} key={userData.name} />
-      ))}
-    </StyledList>
-  </Wrapper>
-);
+const UsersList = ({ users }) => {
+  return (
+    <>
+      <Title>Students list</Title>
+      <StyledList>
+        {users.map((userData) => (
+          <UsersListItem userData={userData} key={userData.name} />
+        ))}
+      </StyledList>
+    </>
+  );
+};
 
 export default UsersList;
