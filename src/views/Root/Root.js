@@ -3,7 +3,6 @@ import Dashboard from 'views/Dashboard';
 import AddUser from 'views/AddUser';
 import MainTemplate from 'components/templates/MainTemplate/MainTemplate';
 import UsersProvider from 'providers/UsersProvider';
-
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from 'assets/styles/globalStyles';
 import { theme } from 'assets/styles/theme';

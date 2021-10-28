@@ -1,4 +1,5 @@
 /* eslint-disable react/jsx-no-duplicate-props */
+import React from 'react';
 import styled from 'styled-components';
 import propTypes from 'prop-types';
 import { Label } from 'components/atoms/Label/Label';
