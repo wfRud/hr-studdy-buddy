@@ -20,7 +20,6 @@ export const NewsSectionHeader = styled.h2`
 
 export const ArticleWrapper = styled(ViewWrapper)`
   margin: 30px 0;
-  width: 100%;
   max-width: unset;
   border-radius: 12px;
   color: ${({ theme }) => theme.colors.darkGrey};
