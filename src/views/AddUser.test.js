@@ -2,7 +2,7 @@ import '@testing-library/jest-dom';
 import { screen, fireEvent } from '@testing-library/react';
 import { renderWithThemeProviders } from 'helpers/renderWithThemeProvider';
 import AddUser from './AddUser';
-import Dashboard from './Dashboard';
+import Dashboard from './Dasboard/Dashboard';
 
 describe('Input With Button', () => {
   it('Adds new user to the list', () => {
